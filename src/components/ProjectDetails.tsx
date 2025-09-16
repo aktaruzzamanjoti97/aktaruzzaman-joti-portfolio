@@ -47,7 +47,7 @@ const ProjectDetails: React.FC<any> = ({ projectDetails, altt }: any) => {
 												href={projectDetails.github}
 												target='_blank'
 												rel='noreferrer'>
-												<img
+												<Image
 													className='h-14 w-14 border-2 border-blue-400 rounded-full'
 													src='https://img.icons8.com/fluency/144/000000/github.png'
 													alt='Github'
@@ -218,7 +218,7 @@ const ProjectDetails: React.FC<any> = ({ projectDetails, altt }: any) => {
 										href={projectDetails.github}
 										target='_blank'
 										rel='noreferrer'>
-										<img
+										<Image
 											className='h-7 w-7 border-2 border-blue-400 rounded-full'
 											src='https://img.icons8.com/fluency/144/000000/github.png'
 											alt='Github'

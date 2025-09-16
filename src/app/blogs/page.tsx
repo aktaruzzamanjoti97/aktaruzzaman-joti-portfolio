@@ -4,6 +4,7 @@
 import { blogsdata } from '@/data/BlogsData';
 import { NextPage } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { useMediaQuery } from 'react-responsive';
 
@@ -62,11 +63,13 @@ const Blogs: NextPage = (props: any) => {
 										target='_blank'
 										rel='noreferrer'>
 										<div className='relative w-full '>
-											<img
+											<Image
 												src={blog.image}
 												alt={blog.title}
 												className='w-full h-full object-center object-cover'
 												style={{ height: '12vw' }}
+												width={20}
+												height={20}
 											/>
 										</div>
 										<div className='px-3 py-4'>
@@ -108,11 +111,11 @@ const Blogs: NextPage = (props: any) => {
 										target='_blank'
 										rel='noreferrer'>
 										<div className=' w-full'>
-											<img
+											<Image
 												src={blog.image}
 												alt={blog.title}
 												className='object-center object-cover'
-												width='100%'
+												width={100%}
 												style={{ height: '35vw' }}
 											/>
 										</div>

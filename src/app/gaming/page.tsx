@@ -3,6 +3,7 @@
 
 import { NextPage } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { useMediaQuery } from 'react-responsive';
@@ -72,18 +73,20 @@ const Gaming: NextPage = () => {
 					<section className='pr-5  pt-10'>
 						<div className='animeplayer pr-3 pt-3'>
 							{play ? (
-								<img
+								<Image
 									src='https://img.icons8.com/flat-round/64/000000/pause--v1.png'
 									width='40'
 									height='40'
 									className=' cursor-pointer'
+									alt=''
 									onClick={() => managePlayer(false)}
 								/>
 							) : (
-								<img
+								<Image
 									src='https://img.icons8.com/flat-round/64/000000/play--v1.png'
 									width='40'
 									height='40'
+									alt=''
 									className=' cursor-pointer'
 									onClick={() => managePlayer(true)}
 								/>
@@ -113,10 +116,11 @@ const Gaming: NextPage = () => {
 									<div className='grid  gap-4 grid-cols-1s xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1'>
 										<div className='rounded-2xl bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 p-4 flex flex-col relative undefined'>
 											<div className='text-white w-full'>
-												<img
+												<Image
 													src='https://64.media.tumblr.com/8ba7ad1ceb0b13c21a97e1644797883f/530ffdf8632abbf3-3f/s500x750/9119bdb64f35ea668304704dd5027cb6292180e7.gifv'
-													width='100%'
+													width={100%}
 													className='rounded-lg h-50'
+											 alt='' height={20}
 												/>
 											</div>
 											<div className='text-white text-lg font-medium mb-2 mt-4'>
@@ -130,10 +134,11 @@ const Gaming: NextPage = () => {
 										</div>
 										<div className='rounded-2xl bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 p-4 flex flex-col relative undefined'>
 											<div className='text-white w-full'>
-												<img
+												<Image
 													src='https://i.pinimg.com/originals/0d/92/28/0d9228d6eb69ab0c57d53fee1d5a4879.gif'
-													width='100%'
+													width={100%}
 													className='rounded-lg h-50'
+											 alt='' height={20}
 												/>
 											</div>
 											<div className='text-white text-lg font-medium mb-2 mt-4'>
@@ -146,10 +151,11 @@ const Gaming: NextPage = () => {
 										</div>
 										<div className='rounded-2xl bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 p-4 flex flex-col relative undefined'>
 											<div className='text-white w-full'>
-												<img
+												<Image
 													src='https://media4.giphy.com/media/VgvLyXeQ35gGhzmcVG/giphy-downsized-large.gif'
-													width='100%'
+													width={100%}
 													className='rounded-lg h-50'
+											 alt='' height={20}
 												/>
 											</div>
 											<div className='text-white text-lg font-medium mb-2 mt-4'>
@@ -162,10 +168,11 @@ const Gaming: NextPage = () => {
 										</div>
 										<div className='rounded-2xl bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 p-4 flex flex-col relative undefined'>
 											<div className='text-white w-full'>
-												<img
+												<Image
 													src='https://64.media.tumblr.com/e5c073740257c795f8f1519178ddca3c/4df32908d32a5a41-f0/s540x810/91e1ba687932228b6138d29ef917e1cb259be7a7.gifv'
-													width='100%'
+													width={100%}
 													className='rounded-lg h-50'
+											 alt='' height={20}
 												/>
 											</div>
 											<div className='text-white text-lg font-medium mb-2 mt-4'>
@@ -187,19 +194,21 @@ const Gaming: NextPage = () => {
 					<section className='  pt-10'>
 						<div className='animeplayer pr-3 pt-3'>
 							{play ? (
-								<img
+								<Image
 									src='https://img.icons8.com/flat-round/64/000000/pause--v1.png'
 									width='40'
 									height='40'
 									className=' cursor-pointer'
+									alt=''
 									onClick={() => managePlayer(false)}
 								/>
 							) : (
-								<img
+								<Image
 									src='https://img.icons8.com/flat-round/64/000000/play--v1.png'
 									width='40'
 									height='40'
 									className=' cursor-pointer'
+									alt=''
 									onClick={() => managePlayer(true)}
 								/>
 							)}
@@ -228,10 +237,11 @@ const Gaming: NextPage = () => {
 									<div className='grid  gap-4 grid-cols-1s xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1'>
 										<div className='rounded-2xl bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 p-4 flex flex-col relative undefined'>
 											<div className='text-white w-full'>
-												<img
+												<Image
 													src='https://preview.redd.it/pfts18ct1vi61.jpg?width=4096&format=pjpg&auto=webp&s=91151c92c90e3641eb43bb6f5dba3e795ef8f397'
-													width='100%'
+													width={100%}
 													className='rounded-lg h-50'
+											 alt='' height={20}
 												/>
 											</div>
 											<div className='text-white text-lg font-medium mb-2 mt-4'>
@@ -245,10 +255,11 @@ const Gaming: NextPage = () => {
 										</div>
 										<div className='rounded-2xl bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 p-4 flex flex-col relative undefined'>
 											<div className='text-white w-full'>
-												<img
+												<Image
 													src='https://sensortower-itunes.s3.amazonaws.com/blog/2020/10/genshin-impact-first-week-revenue-header.jpg'
-													width='100%'
+													width={100%}
 													className='rounded-lg h-50'
+											 alt='' height={20}
 												/>
 											</div>
 											<div className='text-white text-lg font-medium mb-2 mt-4'>
@@ -261,9 +272,10 @@ const Gaming: NextPage = () => {
 										</div>
 										<div className='rounded-2xl bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 p-4 flex flex-col relative undefined'>
 											<div className='text-white w-full'>
-												<img
+												<Image
 													src='https://media4.giphy.com/media/VgvLyXeQ35gGhzmcVG/giphy-downsized-large.gif'
-													width='100%'
+													width={100%}
+											 alt='' height={20}
 													className='rounded-lg h-50'
 												/>
 											</div>
@@ -277,10 +289,11 @@ const Gaming: NextPage = () => {
 										</div>
 										<div className='rounded-2xl bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 p-4 flex flex-col relative undefined'>
 											<div className='text-white w-full'>
-												<img
+												<Image
 													src='https://pbs.twimg.com/media/E6tR0L9VUAIKt9R.jpg:large'
-													width='100%'
+													width={100%}
 													className='rounded-lg h-50'
+											 alt='' height={20}
 												/>
 											</div>
 											<div className='text-white text-lg font-medium mb-2 mt-4'>

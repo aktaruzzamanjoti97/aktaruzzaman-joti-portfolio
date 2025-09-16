@@ -2,6 +2,7 @@
 
 import { NextPage } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import { useState } from 'react';
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { useMediaQuery } from 'react-responsive';
@@ -180,11 +181,12 @@ const Email: NextPage = () => {
 												<div
 													className='spinner-border flex pt-4 text-indigo-500'
 													role='status'>
-													<img
+													<Image
 														src='https://img.icons8.com/ios/50/ffffff/loading-circle.gif'
 														className='rounded-full flex'
 														width='30'
 														height='30'
+														alt=''
 													/>
 													<span className='flex-auto text-white pl-2 font-medium pt-1'>
 														Loading...{' '}
@@ -200,10 +202,11 @@ const Email: NextPage = () => {
 													get back to you as soon as possible.
 												</div>
 												<div className=' text-left pb-3'>
-													<img
+													<Image
 														src='https://c.tenor.com/mCiM7CmGGI4AAAAC/naruto.gif'
-														width='75%'
+														width={75%}
 														height='100'
+														alt=''
 														className='text-center rounded-lg '
 													/>
 												</div>
@@ -312,11 +315,12 @@ const Email: NextPage = () => {
 											<div
 												className='spinner-border flex pt-4 mb-20 text-indigo-500'
 												role='status'>
-												<img
+												<Image
 													src='https://img.icons8.com/ios/50/ffffff/loading-circle.gif'
 													className='rounded-full flex'
 													width='30'
 													height='30'
+													alt=''
 												/>
 												<span className='flex-auto text-white pl-2 font-medium pt-1'>
 													Loading...{' '}
@@ -332,11 +336,12 @@ const Email: NextPage = () => {
 												back to you as soon as possible.
 											</div>
 											<div className=' text-left pb-3'>
-												<img
+												<Image
 													src='https://c.tenor.com/mCiM7CmGGI4AAAAC/naruto.gif'
-													width='100%'
+													width={100%}
 													height='100'
 													className='text-center rounded-lg '
+													alt=''
 												/>
 											</div>
 										</div>

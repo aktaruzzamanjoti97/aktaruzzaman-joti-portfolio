@@ -2,6 +2,7 @@
 
 import { NextPage } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { useMediaQuery } from 'react-responsive';
@@ -60,10 +61,12 @@ const Hobbies: NextPage = () => {
 										<Link href='/Blogs'>
 											<div>
 												<div className='bg-white rounded-md mb-2 flex justify-center items-center'>
-													<img
+													<Image
 														className='h-20 p-3 rounded-md'
 														src='https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-blogging-free-time-wanicon-lineal-color-wanicon.png'
 														alt='Blogging icon'
+														width={20}
+														height={20}
 													/>
 												</div>
 												<h2 className='text-white text-center font-semibold'>
@@ -76,7 +79,7 @@ const Hobbies: NextPage = () => {
 										<Link href='/Gaming'>
 											<div>
 												<div className='bg-white rounded-md mb-2 flex justify-center items-center'>
-													<img
+													<Image
 														className='h-20 p-3 rounded-md'
 														src='https://img.icons8.com/ios/50/000000/controller.png'
 														width='80'
@@ -94,10 +97,12 @@ const Hobbies: NextPage = () => {
 										<Link href='/Anime'>
 											<div>
 												<div className='bg-white rounded-md mb-2 flex justify-center items-center'>
-													<img
+													<Image
 														className='h-20 rounded-md p-2'
 														src='https://img.icons8.com/ios/50/000000/naruto.png'
 														alt='naruto icon'
+														width={20}
+														height={20}
 													/>
 												</div>
 												<h2 className='text-white text-center font-semibold'>
@@ -110,10 +115,12 @@ const Hobbies: NextPage = () => {
 										<Link href='/Learning'>
 											<div>
 												<div className='bg-white rounded-md mb-2 flex justify-center items-center'>
-													<img
+													<Image
 														src='https://img.icons8.com/ios/50/000000/learning.png'
 														alt='Learning icon'
 														className='h-20 rounded-md p-2'
+														width={20}
+														height={20}
 													/>{' '}
 												</div>
 												<h2 className='text-white text-center font-semibold'>
@@ -126,10 +133,12 @@ const Hobbies: NextPage = () => {
 										<Link href='/Startup'>
 											<div>
 												<div className='bg-white rounded-md mb-2 flex justify-center items-center'>
-													<img
+													<Image
 														src='https://img.icons8.com/ios/50/000000/rocket--v1.png'
 														className='h-20 p-4 rounded-md'
 														alt='Startup icon'
+														width={20}
+														height={20}
 													/>
 												</div>
 												<h2 className='text-white text-center font-semibold'>
@@ -160,12 +169,12 @@ const Hobbies: NextPage = () => {
 										<Link href='/Blogs'>
 											<div>
 												<div className='bg-white rounded-md mb-2 flex justify-center items-center'>
-													<img
+													<Image
 														className=' p-3 rounded-md'
 														src='https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-blogging-free-time-wanicon-lineal-color-wanicon.png'
 														alt='Blogging icon'
 														width='80'
-														height='auto'
+														height='80'
 													/>
 												</div>
 												<h2 className='text-white text-center font-semibold'>
@@ -178,11 +187,11 @@ const Hobbies: NextPage = () => {
 										<Link href='/Gaming'>
 											<div>
 												<div className='bg-white rounded-md mb-2 flex justify-center items-center'>
-													<img
+													<Image
 														className='p-3 rounded-md'
 														src='https://img.icons8.com/ios/50/000000/controller.png'
 														width='80'
-														height='auto'
+														height='80'
 														alt='Gaming icon'
 													/>
 												</div>
@@ -196,12 +205,12 @@ const Hobbies: NextPage = () => {
 										<Link href='/Anime'>
 											<div>
 												<div className='bg-white rounded-md mb-2 flex justify-center items-center'>
-													<img
+													<Image
 														className='rounded-md p-2'
 														src='https://img.icons8.com/ios/50/000000/naruto.png'
 														alt='naruto icon'
 														width='80'
-														height='auto'
+														height='80'
 													/>
 												</div>
 												<h2 className='text-white text-center font-semibold'>
@@ -214,12 +223,12 @@ const Hobbies: NextPage = () => {
 										<Link href='/Learning'>
 											<div>
 												<div className='bg-white rounded-md mb-2 flex justify-center items-center'>
-													<img
+													<Image
 														src='https://img.icons8.com/ios/50/000000/learning.png'
 														alt='Learning icon'
 														className=' rounded-md p-2'
 														width='80'
-														height='auto'
+														height='80'
 													/>{' '}
 												</div>
 												<h2 className='text-white text-center font-semibold'>
@@ -232,12 +241,13 @@ const Hobbies: NextPage = () => {
 										<Link href='/Startup'>
 											<div>
 												<div className='bg-white rounded-md mb-2 flex justify-center items-center'>
-													<img
+													<Image
 														src='https://img.icons8.com/ios/50/000000/rocket--v1.png'
 														className='p-4 rounded-md'
 														alt='Startup icon'
 														width='80'
-														height='auto'
+														// height='auto'
+														height='80'
 													/>
 												</div>
 												<h2 className='text-white text-center font-semibold'>

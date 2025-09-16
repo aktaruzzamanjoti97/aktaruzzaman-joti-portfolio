@@ -3,6 +3,7 @@
 
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
@@ -196,7 +197,12 @@ const Home: NextPage = () => {
 												backgroundColor: '#262626',
 												borderBottomWidth: '0.3rem',
 											}}>
-											<img src='https://img.icons8.com/fluency/30/null/linkedin-circled.png' />
+											<Image
+												src='https://img.icons8.com/fluency/30/null/linkedin-circled.png'
+												width={20}
+												height={20}
+												alt=''
+											/>
 											<p className='text-gray-200 text-sm  font-sans flex justify-start items-center'>
 												LinkedIn Profile
 											</p>
@@ -215,7 +221,12 @@ const Home: NextPage = () => {
 												backgroundColor: '#262626',
 												borderBottomWidth: '0.3rem',
 											}}>
-											<img src='https://img.icons8.com/3d-fluency/28/null/github.png' />{' '}
+											<Image
+												src='https://img.icons8.com/3d-fluency/28/null/github.png'
+												width={20}
+												height={20}
+												alt=''
+											/>
 											<p className='text-gray-200 text-sm  font-sans flex justify-start items-center'>
 												Github Page
 											</p>
@@ -234,7 +245,12 @@ const Home: NextPage = () => {
 												backgroundColor: '#262626',
 												borderBottomWidth: '0.3rem',
 											}}>
-											<img src='https://img.icons8.com/color/28/null/twitter--v1.png' />{' '}
+											<Image
+												src='https://img.icons8.com/color/28/null/twitter--v1.png'
+												width={20}
+												height={20}
+												alt=''
+											/>
 											<p className='text-gray-200 text-sm  font-sans flex justify-start items-center'>
 												Twitter Handle
 											</p>
@@ -249,7 +265,12 @@ const Home: NextPage = () => {
 											backgroundColor: '#262626',
 											borderBottomWidth: '0.3rem',
 										}}>
-										<img src='https://img.icons8.com/color/28/null/javascript--v1.png' />{' '}
+										<Image
+											src='https://img.icons8.com/color/28/null/javascript--v1.png'
+											width={20}
+											height={20}
+											alt=''
+										/>{' '}
 										<p className='text-gray-200 text-sm  font-sans flex justify-start items-center'>
 											Full Stack Engineer
 										</p>
@@ -263,9 +284,12 @@ const Home: NextPage = () => {
 											backgroundColor: '#262626',
 											borderBottomWidth: '0.3rem',
 										}}>
-										<img
+										<Image
 											src='https://img.icons8.com/ios-filled/20/ffffff/learn-more.png'
 											className='ml-1 mr-1'
+											width={20}
+											height={20}
+											alt=''
 										/>{' '}
 										<p className='text-gray-200 text-sm  font-sans flex justify-start items-center'>
 											Constant Learner
@@ -280,7 +304,12 @@ const Home: NextPage = () => {
 											backgroundColor: '#262626',
 											borderBottomWidth: '0.3rem',
 										}}>
-										<img src='https://img.icons8.com/external-victoruler-flat-victoruler/26/null/external-farming-farming-victoruler-flat-victoruler.png' />
+										<Image
+											src='https://img.icons8.com/external-victoruler-flat-victoruler/26/null/external-farming-farming-victoruler-flat-victoruler.png'
+											width={20}
+											height={20}
+											alt=''
+										/>
 										<p className='text-gray-200 text-sm  font-sans flex justify-start items-center'>
 											Retirement Plan Farming
 										</p>

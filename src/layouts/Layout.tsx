@@ -5,6 +5,7 @@ import { numberTOWords } from '@/helper/utility';
 import { SideSecondPanel } from '@/layouts/SecondPanel/SideSecondPanel';
 import { SideMainPanel } from '@/layouts/SideMainPanel/SideMainPanel';
 import countapi from 'countapi-js';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
@@ -50,7 +51,7 @@ export default function Layout({ children }: any) {
 		<>
 			<div className='header w-full'>
 				<div className='logo pl-2 '>
-					<img
+					<Image
 						src='https://img.icons8.com/color/96/000000/visual-studio-code-2019.png'
 						alt='Visual Studio Code Styled Portofolio Icon'
 						width='60'

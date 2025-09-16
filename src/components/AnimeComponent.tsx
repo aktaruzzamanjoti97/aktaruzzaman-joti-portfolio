@@ -2,6 +2,7 @@
 'use client';
 
 import { animedata } from '@/data/animedata';
+import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { useMediaQuery } from 'react-responsive';
@@ -40,20 +41,22 @@ const AnimeComponent: React.FC = () => {
 					<div className='  flex flex-row rounded-xl overflow-hidden shadow-lg'>
 						<div className='animeplayer pr-3 pt-5'>
 							{play ? (
-								<img
+								<Image
 									src='https://img.icons8.com/flat-round/64/000000/pause--v1.png'
 									width='40'
 									height='40'
 									className=' cursor-pointer'
 									onClick={() => managePlayer(false)}
+									alt=''
 								/>
 							) : (
-								<img
+								<Image
 									src='https://img.icons8.com/flat-round/64/000000/play--v1.png'
 									width='40'
 									height='40'
 									className=' cursor-pointer'
 									onClick={() => managePlayer(true)}
+									alt=''
 								/>
 							)}
 						</div>
@@ -77,10 +80,12 @@ const AnimeComponent: React.FC = () => {
 										key={anime.title}
 										className='w-full  bg-red-900 backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center'>
 										<div className='mb-8'>
-											<img
+											<Image
 												className='object-center object-cover rounded-full h-36 w-36'
 												src={anime.img}
 												alt='naruto'
+												width={20}
+												height={20}
 											/>
 										</div>
 										<div className='text-center'>
@@ -99,19 +104,21 @@ const AnimeComponent: React.FC = () => {
 					<div className='  flex flex-row rounded-xl overflow-hidden shadow-lg'>
 						<div className='animeplayer pr-3 pt-5'>
 							{play ? (
-								<img
+								<Image
 									src='https://img.icons8.com/flat-round/64/000000/pause--v1.png'
 									width='40'
 									height='40'
+									alt=''
 									className=' cursor-pointer'
 									onClick={() => managePlayer(false)}
 								/>
 							) : (
-								<img
+								<Image
 									src='https://img.icons8.com/flat-round/64/000000/play--v1.png'
 									width='40'
 									height='40'
 									className=' cursor-pointer'
+									alt=''
 									onClick={() => managePlayer(true)}
 								/>
 							)}
@@ -136,10 +143,12 @@ const AnimeComponent: React.FC = () => {
 										key={anime.title}
 										className='w-full  bg-red-900 backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center'>
 										<div className='mb-8'>
-											<img
+											<Image
 												className='object-center object-cover rounded-full h-36 w-36'
 												src={anime.img}
 												alt='naruto'
+												width={20}
+												height={20}
 											/>
 										</div>
 										<div className='text-center'>
