@@ -424,7 +424,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/atartup');
+											router.push('/startup');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;

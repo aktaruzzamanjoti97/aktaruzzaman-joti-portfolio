@@ -5,13 +5,16 @@ import { numberTOWords } from '@/helper/utility';
 import { SideSecondPanel } from '@/layouts/SecondPanel/SideSecondPanel';
 import { SideMainPanel } from '@/layouts/SideMainPanel/SideMainPanel';
 import countapi from 'countapi-js';
+import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import Clock from 'react-live-clock';
 import { useMediaQuery } from 'react-responsive';
 import styles from './Layout.module.css';
+const ClientClock = dynamic(() => import('@/components/LiveClock'), {
+	ssr: false, // <- disable server-side rendering
+});
 
 export default function Layout({ children }: any) {
 	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 943px)' });
@@ -153,14 +156,7 @@ export default function Layout({ children }: any) {
 					</ul>
 					<ul className='left  '>
 						<li>{VisitorCount} Total Visits</li>
-						<li>
-							{
-								<Clock
-									format={'dddd, MMMM Mo, YYYY, h:mm:ss A'}
-									ticking={true}
-								/>
-							}
-						</li>
+						<li>{<ClientClock />}</li>
 						<li>UTF-8</li>
 						<li>
 							<i className='fa fa-radiation-alt'></i> Port: 443

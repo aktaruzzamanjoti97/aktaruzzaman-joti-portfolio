@@ -1,3 +1,5 @@
+'use client';
+
 import { NextPage } from 'next';
 import Head from 'next/head';
 import { Scrollbars } from 'react-custom-scrollbars-2';
