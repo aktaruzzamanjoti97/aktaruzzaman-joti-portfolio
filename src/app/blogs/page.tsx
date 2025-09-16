@@ -10,7 +10,6 @@ import { useMediaQuery } from 'react-responsive';
 const Blogs = () => {
 	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 943px)' });
 	const blogs = blogsdata();
-	console.log(blogs)
 
 	return (
 		<Scrollbars

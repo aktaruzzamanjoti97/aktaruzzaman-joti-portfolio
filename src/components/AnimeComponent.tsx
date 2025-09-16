@@ -12,7 +12,6 @@ const AnimeComponent: React.FC = () => {
 	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 943px)' });
 
 	const player: any = React.createRef();
-	console.log(animedata());
 	const animes = animedata();
 
 	useEffect(() => {
