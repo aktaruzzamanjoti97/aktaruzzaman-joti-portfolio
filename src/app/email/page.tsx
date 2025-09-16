@@ -63,7 +63,7 @@ const Email: NextPage = () => {
 				<meta property='og:locale' content='en_US' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content={'https://www.rajsavaliya.com'} />
-				<meta property='og:site_name' content='Your Name' />
+				<meta property='og:site_name' content='M. Aktaruzzaman Joti' />
 				<meta property='og:image' content='/mainthumbnail.PNG' />
 				<meta property='og:image:width' content='1040' />
 				<meta property='og:image:height' content='600' />
@@ -164,7 +164,7 @@ const Email: NextPage = () => {
 															);
 														} else if (name === '') {
 															setError(
-																'Please enter your name.'
+																'Please enter M. Aktaruzzaman Joti.'
 															);
 														} else {
 															setError('');
@@ -298,7 +298,7 @@ const Email: NextPage = () => {
 															'Please enter your message.'
 														);
 													} else if (name === '') {
-														setError('Please enter your name.');
+														setError('Please enter M. Aktaruzzaman Joti.');
 													} else {
 														setError('');
 														setEmail('');

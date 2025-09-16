@@ -35,7 +35,7 @@ const Home: NextPage = () => {
 	return (
 		<>
 			<Head>
-				<title>Your Name | Software Development Engineer</title>
+				<title>M. Aktaruzzaman Joti | Software Development Engineer</title>
 				<meta
 					name='description'
 					content={`VS code style developer portfolio`}
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
 				<meta
 					property='og:title'
 					content={
-						'Your Name - Software Development Engineer &amp; Product Developer'
+						'M. Aktaruzzaman Joti - Software Development Engineer &amp; Product Developer'
 					}
 				/>
 				<meta
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
 				<meta property='og:locale' content='en_US' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content={'https://www.rajsavaliya.com'} />
-				<meta property='og:site_name' content='Your Name' />
+				<meta property='og:site_name' content='M. Aktaruzzaman Joti' />
 				<meta property='og:image' content='/mainthumbnail.PNG' />
 				<meta property='og:image:width' content='1040' />
 				<meta property='og:image:height' content='600' />
@@ -73,7 +73,9 @@ const Home: NextPage = () => {
 					<div className='flex flex-col mt-1 md:flex-row md:space-x-4'>
 						<div className='flex-1 mb-4 md:mb-0 '>
 							<div className='p-2'>
-								<h2 className='text-5xl font-sans	 mb-2 '>Your Name</h2>
+								<h2 className='text-5xl font-sans	 mb-2 '>
+									M. Aktaruzzaman Joti
+								</h2>
 								<h3 className='text-2xl font-sans	 text-gray-500 pt-1 mb-2'>
 									Software Development Engineer
 								</h3>
