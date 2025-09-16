@@ -1,11 +1,10 @@
 'use client';
 
-import { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import { Scrollbars } from 'react-custom-scrollbars-2';
 
-const Skills: NextPage = () => {
+const Skills = () => {
 	return (
 		<Scrollbars
 			autoHide

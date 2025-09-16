@@ -5,14 +5,13 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 
 const Home: NextPage = () => {
 	const [index, setIndex] = useState(0);
 	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 943px)' });
-	const router = useRouter();
 	const pathname = usePathname();
 
 	const recentLinks = useMemo(() => {
