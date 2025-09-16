@@ -101,7 +101,7 @@ const Projects: NextPage = () => {
 				) : (
 					<div className='w-full mt-3 pb-60 grid grid-cols-1s xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 '>
 						{projects?.map((obj: any, index: number) => (
-							<div className='mb-5 ' key={index + 125}>
+							<div className='mb-5 ' key={index}>
 								<div className='w-full rounded-xl overflow-hidden cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500'>
 									<Link href={`/projects/${obj.index}`}>
 										<div>

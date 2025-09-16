@@ -167,7 +167,7 @@ const Home: NextPage = () => {
 											<Link
 												passHref
 												href={item}
-												key={`link-recent-${index}`}>
+												key={`link-recent-${index + 1}`}>
 												<p className='text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center'>
 													{item?.slice(1)}{' '}
 													<p className='text-gray-300 pl-2 text-sm '>
@@ -236,10 +236,7 @@ const Home: NextPage = () => {
 									</Link>
 								</div>
 								<div className='mt-4'>
-									<Link
-										passHref
-										target='_blank'
-										href=''>
+									<Link passHref target='_blank' href=''>
 										<div
 											className='cursor-pointer w-full flex justify-start items-center pl-2 pr-2 p-1 
                         rounded-sm gap-2 border-b  border-blue-500 '

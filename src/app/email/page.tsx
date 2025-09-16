@@ -204,7 +204,8 @@ const Email: NextPage = () => {
 												<div className=' text-left pb-3'>
 													<Image
 														src='https://c.tenor.com/mCiM7CmGGI4AAAAC/naruto.gif'
-														width={75%}
+														width={20}
+														style={{width: '75%'}}
 														height='100'
 														alt=''
 														className='text-center rounded-lg '
@@ -338,7 +339,8 @@ const Email: NextPage = () => {
 											<div className=' text-left pb-3'>
 												<Image
 													src='https://c.tenor.com/mCiM7CmGGI4AAAAC/naruto.gif'
-													width={100%}
+													width={20}
+													style={{width: '100%'}}
 													height='100'
 													className='text-center rounded-lg '
 													alt=''

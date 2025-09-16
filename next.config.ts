@@ -17,6 +17,13 @@ const nextConfig: NextConfig = {
 			'sensortower-itunes.s3.amazonaws.com',
 			'preview.redd.it',
 			'media4.giphy.com',
+			'ayex8storex9.s3.ap-south-1.amazonaws.com',
+			'uploads.toptal.io',
+			'www.browserstack.com',
+			'miro.medium.com',
+			'hkandala.dev',
+			'res.cloudinary.com',
+			'images.ctfassets.net',
 		],
 	},
 };

@@ -12,6 +12,8 @@ const AnimeComponent: React.FC = () => {
 	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 943px)' });
 
 	const player: any = React.createRef();
+	console.log(animedata());
+	const animes = animedata();
 
 	useEffect(() => {
 		if (player.current) {
@@ -75,17 +77,17 @@ const AnimeComponent: React.FC = () => {
 								</h2>
 							</div>
 							<div className='grid grid-cols-1 grid-cols-1s xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 gap-6'>
-								{animedata()?.map((anime) => (
+								{animes?.map((anime) => (
 									<div
 										key={anime.title}
 										className='w-full  bg-red-900 backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center'>
 										<div className='mb-8'>
 											<Image
 												className='object-center object-cover rounded-full h-36 w-36'
-												src={anime.img}
+												src='https://img.icons8.com/fluency/30/null/linkedin-circled.png'
 												alt='naruto'
-												width={20}
-												height={20}
+												width={144}
+												height={144}
 											/>
 										</div>
 										<div className='text-center'>
@@ -145,10 +147,10 @@ const AnimeComponent: React.FC = () => {
 										<div className='mb-8'>
 											<Image
 												className='object-center object-cover rounded-full h-36 w-36'
-												src={anime.img}
+												src='https://img.icons8.com/fluency/30/null/linkedin-circled.png'
 												alt='naruto'
-												width={20}
-												height={20}
+												width={144}
+												height={144}
 											/>
 										</div>
 										<div className='text-center'>

@@ -2,14 +2,16 @@
 'use client';
 
 import { blogsdata } from '@/data/BlogsData';
-import { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { useMediaQuery } from 'react-responsive';
 
-const Blogs: NextPage = (props: any) => {
+const Blogs = () => {
 	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 943px)' });
+	const blogs = blogsdata();
+	console.log(blogs)
+
 	return (
 		<Scrollbars
 			autoHide
@@ -55,7 +57,7 @@ const Blogs: NextPage = (props: any) => {
 					<section className='pr-5  mt-7 mb-12'>
 						<article>
 							<section className='mt-6 grid grid-cols-1s xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1  gap-x-6 gap-y-8'>
-								{props?.blogs?.map((blog: any) => (
+								{blogs?.map((blog: any) => (
 									<a
 										key={blog.title}
 										href={blog.link}
@@ -103,7 +105,7 @@ const Blogs: NextPage = (props: any) => {
 					<section className=' mt-2 mb-12'>
 						<article>
 							<section className='mt-6 grid grid-1'>
-								{props?.blogs?.map((blog: any) => (
+								{blogs?.map((blog: any) => (
 									<a
 										key={blog.title}
 										href={blog.link}
@@ -111,13 +113,14 @@ const Blogs: NextPage = (props: any) => {
 										target='_blank'
 										rel='noreferrer'>
 										<div className=' w-full'>
-											<Image
+											{/* <Image
 												src={blog.image}
 												alt={blog.title}
 												className='object-center object-cover'
-												width={100%}
-												style={{ height: '35vw' }}
-											/>
+												width={20}
+												height={20}
+												style={{ height: '35vw', width: '100%' }}
+											/> */}
 										</div>
 										<div className='px-3 py-4'>
 											<h3 className='text-sm text-gray-500 pb-2'>
@@ -140,14 +143,5 @@ const Blogs: NextPage = (props: any) => {
 		</Scrollbars>
 	);
 };
-
-export function getStaticProps() {
-	const blogs = blogsdata();
-	return {
-		props: {
-			blogs: blogs,
-		},
-	};
-}
 
 export default Blogs;

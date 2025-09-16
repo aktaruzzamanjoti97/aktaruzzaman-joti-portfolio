@@ -1,7 +1,6 @@
 import AnimeComponent from '@/components/AnimeComponent';
-import { NextPage } from 'next';
 
-const Anime: NextPage = () => {
+const Anime = () => {
 	return <AnimeComponent />;
 };
 

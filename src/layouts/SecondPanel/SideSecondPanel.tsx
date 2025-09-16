@@ -150,7 +150,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 										}`}>
 										<SidePanelSubLink
 											name='projects.ts'
-											link='/Projects'
+											link='/projects'
 											icon={
 												<span className='icons8-typescript'></span>
 											}
@@ -186,7 +186,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 										}`}>
 										<SidePanelSubLink
 											name='Ayedot.js'
-											link='/Projects/1'
+											link='/projects/1'
 											icon={<span className='icons8-nodejs'></span>}
 										/>
 									</li>
@@ -202,7 +202,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 										}`}>
 										<SidePanelSubLink
 											name='Ayefan.js'
-											link='/Projects/2'
+											link='/projects/2'
 											icon={<span className='icons8-react'></span>}
 										/>
 									</li>
@@ -218,7 +218,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 										}`}>
 										<SidePanelSubLink
 											name='Onwos.ts'
-											link='/Projects/3'
+											link='/projects/3'
 											icon={
 												<span className='icons8-angularjs'></span>
 											}
@@ -236,7 +236,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 										}`}>
 										<SidePanelSubLink
 											name='fireflow.js'
-											link='/Projects/4'
+											link='/projects/4'
 											icon={<span className='icons8-react'></span>}
 										/>
 									</li>
@@ -252,7 +252,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 										}`}>
 										<SidePanelSubLink
 											name='Shortlit.js'
-											link='/Projects/5'
+											link='/projects/5'
 											icon={<span className='icons8-nodejs'></span>}
 										/>
 									</li>
@@ -268,7 +268,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 										}`}>
 										<SidePanelSubLink
 											name='Xport.js'
-											link='/Projects/6'
+											link='/projects/6'
 											icon={<span className='icons8-react'></span>}
 										/>
 									</li>

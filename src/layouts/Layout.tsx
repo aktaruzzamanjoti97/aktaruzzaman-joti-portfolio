@@ -53,7 +53,7 @@ export default function Layout({ children }: any) {
 	return (
 		<>
 			<div className='header w-full'>
-				<div className='logo pl-2 '>
+				<div className='logo pl-2'>
 					<Image
 						src='https://img.icons8.com/color/96/000000/visual-studio-code-2019.png'
 						alt='Visual Studio Code Styled Portofolio Icon'
@@ -164,7 +164,7 @@ export default function Layout({ children }: any) {
 					</ul>
 				</div>
 			) : (
-				<div className='bottom-header fixed pb-6 relative z-50 bg-blue-400'>
+				<div className='bottom-header fixed pb-6 z-50 bg-blue-400'>
 					<ul className='right pt-1 ' style={{ fontSize: '12px' }}>
 						<li>NEXT.JS</li>
 						<li>TypeScript</li>

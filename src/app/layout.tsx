@@ -33,7 +33,7 @@ export default function RootLayout({
 				<NextProgress />
 				<Layout>
 					{children}
-					{/* <Analytics /> */}
+					<Analytics />
 				</Layout>
 			</body>
 		</html>
