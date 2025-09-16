@@ -1,3 +1,5 @@
+'use client';
+
 import { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -51,7 +53,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://img.icons8.com/color/144/000000/javascript--v1.png' alt='' width={20} height={20}/>
+										<Image
+											src='https://img.icons8.com/color/144/000000/javascript--v1.png'
+											alt=''
+											width={20}
+											height={20}
+										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										JavaScript
@@ -61,7 +68,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://img.icons8.com/color/96/000000/typescript.png'  alt='' width={20} height={20} />
+										<Image
+											src='https://img.icons8.com/color/96/000000/typescript.png'
+											alt=''
+											width={20}
+											height={20}
+										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										TypeScript
@@ -71,7 +83,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://img.icons8.com/color/48/null/python--v1.png' alt='' width={20} height={20} />
+										<Image
+											src='https://img.icons8.com/color/48/null/python--v1.png'
+											alt=''
+											width={20}
+											height={20}
+										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										Python
@@ -90,10 +107,10 @@ const Skills: NextPage = () => {
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
 										<Image
-											width={90%}
+											width={90}
 											src='https://img.icons8.com/color/144/000000/react-native.png'
-											 alt=''  
-											 height={20}
+											alt=''
+											height={20}
 										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
@@ -104,7 +121,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://img.icons8.com/fluency/144/000000/node-js.png'  alt='' width={20} height={20} />
+										<Image
+											src='https://img.icons8.com/fluency/144/000000/node-js.png'
+											alt=''
+											width={20}
+											height={20}
+										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										Node.js
@@ -115,9 +137,10 @@ const Skills: NextPage = () => {
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
 										<Image
-											width={90%}
+											width={90}
 											src='https://i.ibb.co/Kj1TqRv/image.png'
-											alt='' height={20}
+											alt=''
+											height={20}
 										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
@@ -128,7 +151,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://bourhaouta.gallerycdn.vsassets.io/extensions/bourhaouta/tailwindshades/0.0.5/1592520164095/Microsoft.VisualStudio.Services.Icons.Default'  alt='' width={20} height={20} />
+										<Image
+											src='https://bourhaouta.gallerycdn.vsassets.io/extensions/bourhaouta/tailwindshades/0.0.5/1592520164095/Microsoft.VisualStudio.Services.Icons.Default'
+											alt=''
+											width={20}
+											height={20}
+										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										Tailwind
@@ -138,7 +166,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://img.icons8.com/color/144/000000/bootstrap.png'  alt='' width={20} height={20} />
+										<Image
+											src='https://img.icons8.com/color/144/000000/bootstrap.png'
+											alt=''
+											width={20}
+											height={20}
+										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										Bootstrap
@@ -148,7 +181,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://img.icons8.com/color/144/000000/sass.png'  alt='' width={20} height={20} />
+										<Image
+											src='https://img.icons8.com/color/144/000000/sass.png'
+											alt=''
+											width={20}
+											height={20}
+										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										SASS
@@ -160,7 +198,9 @@ const Skills: NextPage = () => {
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
 										<Image
 											src='https://img.icons8.com/ios-filled/150/000000/jquery.png'
-											 alt='' width={90%} height={20}
+											alt=''
+											width={90}
+											height={20}
 										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
@@ -179,7 +219,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://img.icons8.com/ios-filled/100/000000/sql.png'  alt='' width={20} height={20} />
+										<Image
+											src='https://img.icons8.com/ios-filled/100/000000/sql.png'
+											alt=''
+											width={20}
+											height={20}
+										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										SQL
@@ -189,7 +234,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://img.icons8.com/color/48/null/redis.png'  alt='' width={20} height={20} />{' '}
+										<Image
+											src='https://img.icons8.com/color/48/null/redis.png'
+											alt=''
+											width={20}
+											height={20}
+										/>{' '}
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										Redis
@@ -199,7 +249,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://img.icons8.com/color/48/null/postgreesql.png'  alt='' width={20} height={20} />
+										<Image
+											src='https://img.icons8.com/color/48/null/postgreesql.png'
+											alt=''
+											width={20}
+											height={20}
+										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										PostgresSQL
@@ -209,7 +264,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/1200px-Cassandra_logo.svg.png'  alt='' width={20} height={20}/>
+										<Image
+											src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/1200px-Cassandra_logo.svg.png'
+											alt=''
+											width={20}
+											height={20}
+										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										Cassandra
@@ -219,7 +279,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://img.icons8.com/color/48/000000/mongodb.png'  alt='' width={20} height={20} />
+										<Image
+											src='https://img.icons8.com/color/48/000000/mongodb.png'
+											alt=''
+											width={20}
+											height={20}
+										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										MongoDB
@@ -239,8 +304,9 @@ const Skills: NextPage = () => {
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
 										<Image
 											src='https://img.icons8.com/color/144/000000/amazon-web-services.png'
-											width={70%}
-											 alt=''  height={20}
+											width={70}
+											alt=''
+											height={20}
 										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
@@ -253,8 +319,9 @@ const Skills: NextPage = () => {
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
 										<Image
 											src='https://i.ibb.co/CnLsjhp/download.png'
-											width={70%}
-											 alt='' height={20}
+											width={70}
+											alt=''
+											height={20}
 										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
@@ -265,7 +332,12 @@ const Skills: NextPage = () => {
 							<div className='relative'>
 								<dt>
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
-										<Image src='https://img.icons8.com/color/144/000000/git.png'  alt='' width={20} height={20} />
+										<Image
+											src='https://img.icons8.com/color/144/000000/git.png'
+											alt=''
+											width={20}
+											height={20}
+										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
 										Git
@@ -277,8 +349,9 @@ const Skills: NextPage = () => {
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
 										<Image
 											src='https://img.icons8.com/fluency/144/000000/github.png'
-											width={80%}
-											 alt='' height={20}
+											width={80}
+											alt=''
+											height={20}
 										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
@@ -291,8 +364,9 @@ const Skills: NextPage = () => {
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
 										<Image
 											src='https://img.icons8.com/color/144/000000/bitbucket.png'
-												width={80%}
-											 alt='' height={20}
+											width={80}
+											alt=''
+											height={20}
 										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
@@ -305,8 +379,9 @@ const Skills: NextPage = () => {
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
 										<Image
 											src='https://img.icons8.com/color/144/000000/azure-1.png'
-												width={80%}
-											 alt='' height={20}
+											width={80}
+											alt=''
+											height={20}
 										/>
 									</div>
 									<p className='ml-16 text-lg leading-6 font-medium pt-3 text-gray-100'>
@@ -327,7 +402,7 @@ const Skills: NextPage = () => {
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
 										<Image
 											src='https://img.icons8.com/fluency/144/000000/visual-studio-code-2019.png'
-											width={80%}
+											width={80}
 											height={20}
 											alt=''
 										/>
@@ -342,7 +417,7 @@ const Skills: NextPage = () => {
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
 										<Image
 											src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTILwHh21Dky51ePyPy2V_qsPeQWd5n136Sa8PQuhIMmOGLpprK6Zt7qWn9cRL21LE3RzM&usqp=CAU'
-											width={80%}
+											width={80}
 											alt=''
 											width={20}
 											height={20}
@@ -358,7 +433,7 @@ const Skills: NextPage = () => {
 									<div className='absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white'>
 										<Image
 											src='https://img.icons8.com/color/144/000000/jira.png'
-											width={80%}
+											width={80}
 											height={20}
 											alt=''
 										/>
