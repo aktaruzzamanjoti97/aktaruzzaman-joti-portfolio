@@ -171,7 +171,7 @@ const Home: NextPage = () => {
 												<p className='text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center'>
 													{item?.slice(1)}{' '}
 													<p className='text-gray-300 pl-2 text-sm '>
-														E:/RajSavaliya{item}
+														E:/AktaruzzamanJoti{item}
 													</p>
 												</p>
 											</Link>
@@ -191,7 +191,7 @@ const Home: NextPage = () => {
 									<Link
 										passHref
 										target='_blank'
-										href='https://www.linkedin.com/in/savaliya-raj'>
+										href='https://www.linkedin.com/in/aktaruzzaman-joti/'>
 										<div
 											className='cursor-pointer w-full flex justify-start items-center pl-2 pr-2 p-1 
                         rounded-sm gap-2 border-b  border-blue-500 '
@@ -215,7 +215,7 @@ const Home: NextPage = () => {
 									<Link
 										passHref
 										target='_blank'
-										href='https://github.com/SRX9'>
+										href='https://github.com/aktaruzzamanjoti97'>
 										<div
 											className='cursor-pointer w-full flex justify-start items-center pl-2 pr-2 p-1 
                         rounded-sm gap-2 border-b  border-blue-500 '
@@ -239,7 +239,7 @@ const Home: NextPage = () => {
 									<Link
 										passHref
 										target='_blank'
-										href='https://twitter.com/s_r_x_9'>
+										href=''>
 										<div
 											className='cursor-pointer w-full flex justify-start items-center pl-2 pr-2 p-1 
                         rounded-sm gap-2 border-b  border-blue-500 '

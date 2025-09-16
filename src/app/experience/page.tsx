@@ -86,7 +86,7 @@ const MyWork: NextPage = () => {
 										Software Development Engineer I
 									</h3>
 									<h4 className='vertical-timeline-element-subtitle'>
-										Your Company, IN
+										TechnoNext Software Ltd.
 									</h4>
 									<div className='text-left'>
 										<p>• Work experience Points</p>
@@ -125,7 +125,7 @@ const MyWork: NextPage = () => {
 										Software Development Engineer I
 									</h3>
 									<h4 className='vertical-timeline-element-subtitle'>
-										Your Company 2, IN
+										TFP Solution Bangladesh Ltd.
 									</h4>
 									<div className='text-left'>
 										<p>• Work experience Points</p>
@@ -179,7 +179,7 @@ const MyWork: NextPage = () => {
 										Software Development Engineer I
 									</h3>
 									<h4 className='vertical-timeline-element-subtitle'>
-										Your Company, IN
+										TechnoNext Software Ltd.
 									</h4>
 									<div className='text-left'>
 										<p>• Work experience Points</p>
@@ -218,7 +218,7 @@ const MyWork: NextPage = () => {
 										Software Development Engineer I
 									</h3>
 									<h4 className='vertical-timeline-element-subtitle'>
-										Your Company 2, IN
+										TFP Solution Bangladesh Ltd.
 									</h4>
 									<div className='text-left'>
 										<p>• Work experience Points</p>
