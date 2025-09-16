@@ -100,7 +100,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Experience');
+											router.push('/experience');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -118,7 +118,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Skills');
+											router.push('/skills');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -138,7 +138,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Projects');
+											router.push('/projects');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -176,7 +176,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 								<ul>
 									<li
 										onClick={() => {
-											router.push('/Projects/1');
+											router.push('/projects/1');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -192,7 +192,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Projects/2');
+											router.push('/projects/2');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -208,7 +208,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Projects/3');
+											router.push('/projects/3');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -226,7 +226,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Projects/4');
+											router.push('/projects/4');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -242,7 +242,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Projects/5');
+											router.push('/projects/5');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -258,7 +258,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Projects/6');
+											router.push('/projects/6');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -292,7 +292,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 								<ul>
 									<li
 										onClick={() => {
-											router.push('/Email');
+											router.push('/email');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -328,7 +328,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 								<ul>
 									<li
 										onClick={() => {
-											router.push('/Hobbies');
+											router.push('/hobbies');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -348,7 +348,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Blogs');
+											router.push('/blogs');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -368,7 +368,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Gaming');
+											router.push('/gaming');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -386,7 +386,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Anime');
+											router.push('/anime');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -404,7 +404,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Learning');
+											router.push('/learning');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
@@ -424,7 +424,7 @@ export const SideSecondPanel: React.FC<IProps> = (props: any) => {
 									</li>
 									<li
 										onClick={() => {
-											router.push('/Startup');
+											router.push('/atartup');
 											isTabletOrMobile
 												? props.closeSideMenu()
 												: null;
