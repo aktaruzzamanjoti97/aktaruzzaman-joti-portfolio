@@ -118,7 +118,7 @@ const Gaming: NextPage = () => {
 											<div className='text-white w-full'>
 												<Image
 													src='https://64.media.tumblr.com/8ba7ad1ceb0b13c21a97e1644797883f/530ffdf8632abbf3-3f/s500x750/9119bdb64f35ea668304704dd5027cb6292180e7.gifv'
-													width={100%}
+													width={100}
 													className='rounded-lg h-50'
 											 alt='' height={20}
 												/>
@@ -136,7 +136,7 @@ const Gaming: NextPage = () => {
 											<div className='text-white w-full'>
 												<Image
 													src='https://i.pinimg.com/originals/0d/92/28/0d9228d6eb69ab0c57d53fee1d5a4879.gif'
-													width={100%}
+													width={100}
 													className='rounded-lg h-50'
 											 alt='' height={20}
 												/>
@@ -153,7 +153,7 @@ const Gaming: NextPage = () => {
 											<div className='text-white w-full'>
 												<Image
 													src='https://media4.giphy.com/media/VgvLyXeQ35gGhzmcVG/giphy-downsized-large.gif'
-													width={100%}
+													width={100}
 													className='rounded-lg h-50'
 											 alt='' height={20}
 												/>
@@ -170,7 +170,7 @@ const Gaming: NextPage = () => {
 											<div className='text-white w-full'>
 												<Image
 													src='https://64.media.tumblr.com/e5c073740257c795f8f1519178ddca3c/4df32908d32a5a41-f0/s540x810/91e1ba687932228b6138d29ef917e1cb259be7a7.gifv'
-													width={100%}
+													width={100}
 													className='rounded-lg h-50'
 											 alt='' height={20}
 												/>
@@ -239,7 +239,7 @@ const Gaming: NextPage = () => {
 											<div className='text-white w-full'>
 												<Image
 													src='https://preview.redd.it/pfts18ct1vi61.jpg?width=4096&format=pjpg&auto=webp&s=91151c92c90e3641eb43bb6f5dba3e795ef8f397'
-													width={100%}
+													width={100}
 													className='rounded-lg h-50'
 											 alt='' height={20}
 												/>
@@ -257,7 +257,7 @@ const Gaming: NextPage = () => {
 											<div className='text-white w-full'>
 												<Image
 													src='https://sensortower-itunes.s3.amazonaws.com/blog/2020/10/genshin-impact-first-week-revenue-header.jpg'
-													width={100%}
+													width={100}
 													className='rounded-lg h-50'
 											 alt='' height={20}
 												/>
@@ -274,7 +274,7 @@ const Gaming: NextPage = () => {
 											<div className='text-white w-full'>
 												<Image
 													src='https://media4.giphy.com/media/VgvLyXeQ35gGhzmcVG/giphy-downsized-large.gif'
-													width={100%}
+													width={100}
 											 alt='' height={20}
 													className='rounded-lg h-50'
 												/>
@@ -291,7 +291,7 @@ const Gaming: NextPage = () => {
 											<div className='text-white w-full'>
 												<Image
 													src='https://pbs.twimg.com/media/E6tR0L9VUAIKt9R.jpg:large'
-													width={100%}
+													width={100}
 													className='rounded-lg h-50'
 											 alt='' height={20}
 												/>

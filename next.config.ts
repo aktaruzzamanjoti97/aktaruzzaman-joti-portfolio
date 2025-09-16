@@ -10,6 +10,13 @@ const nextConfig: NextConfig = {
 			'bourhaouta.gallerycdn.vsassets.io',
 			'upload.wikimedia.org',
 			'encrypted-tbn0.gstatic.com',
+			'64.media.tumblr.com',
+			'i.pinimg.com',
+			'/pbs.twimg.com',
+			'media4.giphy.com',
+			'sensortower-itunes.s3.amazonaws.com',
+			'preview.redd.it',
+			'media4.giphy.com',
 		],
 	},
 };
