@@ -418,7 +418,6 @@ const Skills = () => {
 											src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTILwHh21Dky51ePyPy2V_qsPeQWd5n136Sa8PQuhIMmOGLpprK6Zt7qWn9cRL21LE3RzM&usqp=CAU'
 											width={80}
 											alt=''
-											width={20}
 											height={20}
 										/>
 									</div>
